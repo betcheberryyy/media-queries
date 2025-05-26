@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Autos Eléctricos</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar para desktop -->
+    <nav class="sidebar">
+      <h2><i class="fas fa-car"></i> Electric Cars</h2>
+      <ul>
+        <li>Inicio</li>
+        <li>Catálogo</li>
+        <li>Ofertas</li>
+        <li>Contacto</li>
+      </ul>
+      <footer>
+        <div class="social">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+        <p>Todos los derechos reservados</p>
+      </footer>
+    </nav>
+
+    <!-- Encabezado móvil -->
+    <header class="mobile-header">
+      <h2><i class="fas fa-car"></i> Electric Cars</h2>
+      <i class="fas fa-bars"></i>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+      <div class="orden">
+        <label for="ordenar">Ordenar Por:</label>
+        <select id="ordenar">
+          <option value="precio">Precio</option>
+          <option value="modelo">Modelo</option>
+        </select>
+      </div>
+
+      <section class="catalogo">
+        <!-- Tarjetas de autos -->
+        <div class="card">
+          <img src="./assets/imgs/09eb5eb9debc411f753105e004274289.jpg" alt="Auto 1" />
+          <p>Model: Auto Electrico</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="./assets/imgs/4fe392234a08a57c16585bb70c6afd11.jpg" alt="Auto 2" />
+          <p>Model: Auto Electrico</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="./assets/imgs/51fc49bd3778627e506b24826b531b26.jpg" alt="Auto 3" />
+          <p>Model: Auto Electrico</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="./assets/imgs/930c2cac21e88de792853b05513f07d7.jpg" alt="Auto 4" />
+          <p>Model: Auto Electrico</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="./assets/imgs/a6b1a7becd77e116a43f0920fc080ec1.jpg" alt="Auto 5" />
+          <p>Model: Auto Electrico</p>
+          <button>Ver más</button>
+        </div>
+        <div class="card">
+          <img src="./assets/imgs/d0be7539d7255556e1d0fab071cb0c80.jpg" alt="Auto 6" />
+          <p>Model: Auto Electrico</p>
+          <button>Ver más</button>
+        </div>
+      </section>
+
+      <!-- Paginación -->
+      <div class="pagination">
+        <span>&laquo;</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>&raquo;</span>
+      </div>
+
+      <!-- Footer móvil -->
+      <footer class="mobile-footer">
+        <div class="social">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+        <p>Todos los derechos reservados</p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
